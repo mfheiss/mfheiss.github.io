@@ -12,6 +12,12 @@ html {
     scroll-padding-top: calc(#{$navbar-height} - 1px);
 }
 
+p.lead strong {
+    font-weight: bold;
+    font-size: large;
+    font-style: italic;
+}
+
 // Styling for page sections
 .page-section {
     padding: 6rem 0;
